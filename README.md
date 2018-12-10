@@ -8,7 +8,7 @@
 repo init -u https://github.com/turbolukex5/manifest-1 -b pie
 
 # Sync
-repo sync -c -j8 --force-sync --no-clone-bundle --no-tags
+repo sync -c -j$(nproc) --force-sync --no-clone-bundle --no-tags
 ```
 
 ### Build ###
