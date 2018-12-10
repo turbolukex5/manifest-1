@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/Extended-P/manifest -b pie
+repo init -u https://github.com/turbolukex5/manifest-1 -b pie
 
 # Sync
 repo sync -c -j8 --force-sync --no-clone-bundle --no-tags
